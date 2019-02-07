@@ -9,6 +9,9 @@ public class Main {
     int inches, pounds, meters, kilograms;
     Scanner keyboard;
 
+    greeting = "Hello there";
+    
+
 
 
     }
