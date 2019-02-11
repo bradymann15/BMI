@@ -7,7 +7,7 @@ public class Main {
     //declare
     public static void main(String[] args) {
 	String greeting, name;
-    int inches, pounds, centimeters, kilograms, bmi;
+    int inches, ounces, centimeters, kilograms, bmi;
     Scanner keyboard;
 
     //initialize + code
@@ -24,6 +24,8 @@ public class Main {
     System.out.println(inches*2.54);
     System.out.println("Type the number you get down below.");
     centimeters = keyboard.nextInt();
+    System.out.println("That number will be your height in centimeters.");
+
 
 
 
