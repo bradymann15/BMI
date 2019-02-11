@@ -13,6 +13,9 @@ public class Main {
     //initialize + code
     greeting = "Hello there";
     keyboard = new Scanner(System.in);
+
+    System.out.println("What is your name?");
+    name = keyboard.nextLine();
     
 
 
