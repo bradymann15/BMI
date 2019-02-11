@@ -22,9 +22,8 @@ public class Main {
     System.out.print("Now, we will take your height in inches (" + inches);
     System.out.println(") and convert it into centimeters for you.");
     System.out.println(inches*2.54);
-    System.out.println("Type the number you get down below.");
+    System.out.println("Type the number you get down below. This will be your height in cewntimeters.");
     centimeters = keyboard.nextInt();
-    System.out.println("That number will be your height in centimeters.");
     System.out.println("What is your weight in ounces?");
     ounces = keyboard.nextInt();
     System.out.print("Now, we will take your weight in ounces (" + ounces);
@@ -32,6 +31,7 @@ public class Main {
     System.out.println(ounces/35.274);
     System.out.println("Type the number you get down below. This will be your weight in kilograms.");
     kilograms = keyboard.nextInt();
+
 
 
 
