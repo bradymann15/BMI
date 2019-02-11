@@ -19,6 +19,12 @@ public class Main {
     System.out.println(greeting + " " + name);
     System.out.println("What is your height in inches?");
     inches = keyboard.nextInt();
+    System.out.print("Now, we will take your height in inches (" + inches);
+    System.out.println(") and convert it to centimeters for you.");
+    System.out.println(inches*2.54);
+    System.out.println("Type the number you get down below.");
+    centimeters = keyboard.nextInt();
+
 
 
 
