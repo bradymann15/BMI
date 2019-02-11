@@ -25,6 +25,9 @@ public class Main {
     System.out.println("Type the number you get down below.");
     centimeters = keyboard.nextInt();
     System.out.println("That number will be your height in centimeters.");
+    System.out.println("What is your weight in ounces?");
+    ounces = keyboard.nextInt();
+
 
 
 
