@@ -10,7 +10,8 @@ public class Main {
     Scanner keyboard;
 
     greeting = "Hello there";
-    meters = inches*(0.0254/1);
+
+    
 
 
 
