@@ -7,7 +7,7 @@ public class Main {
     //declare
     public static void main(String[] args) {
 	String greeting, name;
-    int inches, pounds, meters, kilograms;
+    int inches, pounds, meters, kilograms, bmi;
     Scanner keyboard;
 
     //initialize + code
@@ -16,7 +16,9 @@ public class Main {
 
     System.out.println("What is your name?");
     name = keyboard.nextLine();
-    
+    System.out.println("What is your height in inches");
+    inches = keyboard.nextInt();
+
 
 
 
