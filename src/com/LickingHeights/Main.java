@@ -10,8 +10,10 @@ public class Main {
     Scanner keyboard;
 
     greeting = "Hello there";
-
+    keyboard = new Scanner(System.in);
     
+
+
 
 
 
