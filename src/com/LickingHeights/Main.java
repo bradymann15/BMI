@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
 	String greeting, name;
     int inches, pounds;
-    double centimeters, kilograms, bmi;
+    double meters, kilograms, bmi;
     Scanner keyboard;
 
     //initialize + code
@@ -22,14 +22,15 @@ public class Main {
     inches = keyboard.nextInt();
     System.out.print("Now, we will take your height in inches (" + inches);
     System.out.println(") and convert it into centimeters for you.");
-    centimeters = (inches*2.54);
+    meters = (inches/39.37);
     System.out.println("What is your weight in pounds?");
     pounds = keyboard.nextInt();
     System.out.print("Now, we will take your weight in pounds (" + pounds);
     System.out.println(") and convert it into kilograms for you.");
     kilograms = (pounds/2.205);
     System.out.println("Now, we will calculate your BMI.");
-    bmi = kilograms/(centimeters*centimeters);
+    bmi = kilograms/(meters*meters);
+    System.out.println(bmi + " is your BMI.");
 
 
 
