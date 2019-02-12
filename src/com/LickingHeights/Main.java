@@ -31,6 +31,8 @@ public class Main {
     System.out.println(ounces/35.274);
     System.out.println("Type the number you get down below. This will be your weight in kilograms.");
     kilograms = keyboard.nextInt();
+    System.out.println("Now, we will calculate your BMI.");
+    bmi = kilograms/(centimeters*centimeters);
 
 
 
