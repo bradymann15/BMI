@@ -7,7 +7,8 @@ public class Main {
     //declare
     public static void main(String[] args) {
 	String greeting, name;
-    int inches, ounces, centimeters, kilograms, bmi;
+    int inches, pounds;
+    double centimeters, kilograms, bmi;
     Scanner keyboard;
 
     //initialize + code
@@ -21,16 +22,12 @@ public class Main {
     inches = keyboard.nextInt();
     System.out.print("Now, we will take your height in inches (" + inches);
     System.out.println(") and convert it into centimeters for you.");
-    System.out.println(inches*2.54);
-    System.out.println("Type the number you get down below. This will be your height in cewntimeters.");
-    centimeters = keyboard.nextInt();
-    System.out.println("What is your weight in ounces?");
-    ounces = keyboard.nextInt();
-    System.out.print("Now, we will take your weight in ounces (" + ounces);
+    centimeters = (inches*2.54);
+    System.out.println("What is your weight in pounds?");
+    pounds = keyboard.nextInt();
+    System.out.print("Now, we will take your weight in pounds (" + pounds);
     System.out.println(") and convert it into kilograms for you.");
-    System.out.println(ounces/35.274);
-    System.out.println("Type the number you get down below. This will be your weight in kilograms.");
-    kilograms = keyboard.nextInt();
+    kilograms = (pounds/35)
     System.out.println("Now, we will calculate your BMI.");
     bmi = kilograms/(centimeters*centimeters);
 
