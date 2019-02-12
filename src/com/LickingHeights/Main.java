@@ -27,7 +27,7 @@ public class Main {
     pounds = keyboard.nextInt();
     System.out.print("Now, we will take your weight in pounds (" + pounds);
     System.out.println(") and convert it into kilograms for you.");
-    kilograms = (pounds/35)
+    kilograms = (pounds/2.205);
     System.out.println("Now, we will calculate your BMI.");
     bmi = kilograms/(centimeters*centimeters);
 
